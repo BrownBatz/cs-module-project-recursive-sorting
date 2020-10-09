@@ -1,0 +1,13 @@
+Recursive functions have a base case and an argument changing towards base case
+
+Every time you call a recursive function, memory allocated for the running of the function is pushed on to the call stack, 
+that frame stays there until the function returns
+
+For recursion, the function MUST be moving towards the base case
+
+In python you can only make 1000 recursive calls before python fails
+
+* Look up more clarification on call stack *
+
+Running two recursive calls will cause it to run in a tree sort of structure, it is recommended to put pen to paper to really map it out
+
